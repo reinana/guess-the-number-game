@@ -8,6 +8,7 @@ if min_number >= max_number:
     print("最小値は最大値より小さくしてください")
 
 
+
 else:
     guess_number = input("予想値を入力してください \n" )
     random_number = random.randrange(min_number, max_number, 1)
